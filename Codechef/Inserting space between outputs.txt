@@ -1,0 +1,21 @@
+If you want the output to be in the same line and have a space separate them,
+
+We can use " " to act as an empty space in between multiple outputs.
+We had seen previously that text has to be enclosed within brackets during cout ("text")
+An empty space is a blank space between brackets (" ")
+
+Write a program which does the following
+
+Output the result of 3 + 4
+Output the result of 2 + 1 on the same line separated by a space from the previous result
+
+CODE : 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  cout << 3 + 4 << " " << 2 + 1;
+
+  return 0;
+}

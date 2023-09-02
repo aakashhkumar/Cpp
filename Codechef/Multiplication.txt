@@ -1,0 +1,17 @@
+Write a program which does the following
+
+Output the result - Product of the integers 8 & 9
+Output the result - Sum of 100 & 200 200 multiplied by 2
+Output both results to separate lines
+
+Code : 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+cout<< 8 * 9 <<endl << (100+200)*2;
+
+    
+    
+}

@@ -1,0 +1,13 @@
+Task
+Write a program which does the following
+
+Output: 3 + 4
+Output: 2 + 1 in a separate line using the syntax suggested above.
+
+CODE : 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+cout<< 3 + 4 <<endl << 2 + 1;
+}

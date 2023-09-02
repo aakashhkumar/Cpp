@@ -1,0 +1,18 @@
+Write a program for the following problem
+
+Let’s consider a rectangle of sides 11 and 13.
+Output the following on separate lines
+Area of the rectangle
+Perimeter of the rectangle
+
+CODE:
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  cout << 11 * 13 <<endl; //Replace the _ with correct digits
+  cout << 2 * ( 11 + 13 );
+
+  return 0;
+}

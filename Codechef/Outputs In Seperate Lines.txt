@@ -1,0 +1,20 @@
+We can use "<< endl" to have the next outputs be on the next line. It is like pressing the "Enter" / "Return" key on your keyboard, but for the output displayed.
+
+Write a program which does the following
+
+Output: 3 + 4
+Output: 2 + 1 in a separate line using the given command.
+
+
+Code : 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  cout << 3 + 4;
+  cout << endl ;
+  cout << 2 + 1;
+
+  return 0;
+}
