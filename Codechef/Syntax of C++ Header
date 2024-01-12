@@ -1,0 +1,17 @@
+nclude <iostream>
+using namespace std;
+
+int main() {
+    cout << 69 + 96;
+}  
+
+#include <iostream>: This line is including the contents of the iostream library. This library is necessary for input and output operations in C++. Think of it like giving your program the ability to speak and listen.
+
+using namespace std;: C++ has something called 'namespaces' which are used to organize code into logical groups. By stating using namespace std;, you're telling the program that you'll be using functions from std (standard) namespace.
+
+int main() { ... }: This is the main function. Every C++ program must have a main function. This is the starting point of your program. When you run the program, the code inside the main function is what gets executed.
+
+
+This code, when run, will simply display 19 on the screen, which is the sum of 69 and 96.
+
+Curly Braces {}: The opening curly brace { after main() indicate the start of main function. The closing cury braces } indicate the end of main function block.
