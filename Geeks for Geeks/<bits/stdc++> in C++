@@ -1,0 +1,51 @@
+The use of <bits/stdc++.h> in C++ programming contests is a common practice to save time and reduce the effort of writing multiple include statements. However, it comes with both advantages and disadvantages, as you've pointed out. Let's summarize the points you mentioned:
+
+Advantages of <bits/stdc++.h>:
+Convenience in Contests:
+
+Saves time during contests where speed is crucial.
+Reduces the effort of writing multiple include statements.
+Avoiding Explicit Header Inclusions:
+
+Eliminates the need to explicitly include individual headers for standard C++ libraries.
+You don't have to remember and include specific headers for each function.
+Disadvantages of <bits/stdc++.h>:
+Non-Standard Header:
+
+Not part of the C++ standard; it is specific to the GNU C++ library.
+Code using it may fail to compile with compilers other than GCC (e.g., MSVC).
+Increased Compilation Time:
+
+May include unnecessary headers, leading to increased compilation time.
+Not efficient from a software engineering perspective as it includes more than necessary.
+Non-Portability:
+
+Being non-standard makes the code non-portable across different compilers.
+Lack of Specificity:
+
+Compiler has to parse every included header, even if not needed, leading to potential inefficiencies.
+
+
+// Using <bits/stdc++.h>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    cout << sqrt(25);
+    return 0;
+}
+
+
+// Without <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    cout << sqrt(25);
+    return 0;
+}
+
+
+Conclusion:
+In the context of competitive programming, where time is of the essence and quick coding is essential, <bits/stdc++.h> can be a handy tool. However, for larger projects or when focusing on software engineering best practices, it is generally recommended to explicitly include only the necessary headers. It's crucial to be aware of the trade-offs and choose the approach that aligns with the specific goals and requirements of the project or contest.
