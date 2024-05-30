@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+    float N;
+    cin>>N;
+    
+    float sum = N/2;
+    cout<<(sum + 0.5)<<endl;
+    
+}
+}
