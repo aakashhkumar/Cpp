@@ -1,0 +1,24 @@
+// Try and debug this code to solve the problem!!!
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int A, B, C;
+        cin >> A >> B >> C;
+        //Declare a new variable to store the maximum of the 3 variables.
+        int maximum = max(A, max(B, C));
+        //Declare a new variable to store the minimum of the 3 variables.
+        int minimum = min(A, min(B, C));
+        int D = maximum - minimum;
+        cout <<D<<endl;
+
+    }
+    return 0;
+}
+
+// Cout is Missing for Print the value store in D variable
