@@ -1,0 +1,55 @@
+// Update the '_' in the code below to solve the problem
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    // Always first check if the problem has test cases
+    int t;
+    cin >> t;
+    // loop through each test case for its inputs
+    while (t--)
+    {
+        int A, B;
+        // Accept 2 integer inputs.
+        cin>> A >> B;
+        // Declare a new variable to store the count of burgers
+
+        if (A>=B){
+        cout << B << endl;
+        }
+        else{
+            cout<<A<<endl;
+        }
+
+
+    }
+    return 0;
+}
+
+
+
+or
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    // Always first check if the problem has test cases
+    int t;
+    cin >> t;
+    // loop through each test case for its inputs
+    while (t--)
+    {
+        int A, B;
+        // Accept 2 integer inputs.
+        cin >> A >> B;
+        // Each burger needs 1 patty and 1 bun. Hence the minimum of these 2 is the maximum number of burgers which can be made
+        cout << min(A, B) << endl;
+    }
+    return 0;
+}
