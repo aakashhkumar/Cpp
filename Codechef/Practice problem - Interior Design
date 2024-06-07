@@ -1,0 +1,23 @@
+//  Update the program below to solve the problem
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int X1, Y1, X2, Y2;
+        //Accept 4 integers inputs.
+        cin >> X1 >> Y1 >> X2 >> Y2;
+        
+        if(X1+Y1>= X2+Y2){
+            cout<<X2+Y2<<endl;
+        }
+        else{
+            cout<<X1+Y1<<endl;
+        }
+    }
+    return 0;
+}
