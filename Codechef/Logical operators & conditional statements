@@ -1,0 +1,25 @@
+// Solution as follows
+#include <bits/stdc++.h>
+
+using namespace std;
+int main() {
+    // your code goes here
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int N, A, B;
+        cin >> N >> A >> B;
+        if (N % A == 0 && N % B == 0)
+            cout << "N is divisible by A and B" << endl;
+        else if (N % A == 0)
+            cout << "N is divisible by only A" << endl;
+        else if (N % B == 0)
+            cout << "N is divisible by only B" << endl;
+        // The last statement could have been an 'else' statement
+        // else if condition used to show usage of 'and' statement
+        else if (N % A != 0 && N % B != 0)
+            cout << "N is divisible by neither A nor B" << endl;
+    }
+    return 0;
+}
