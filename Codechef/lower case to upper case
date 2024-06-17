@@ -1,0 +1,8 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    char ch = 'r';
+    char upper_case = char(ch + ('A'-'a'));
+    cout<<upper_case<<endl;
+}
