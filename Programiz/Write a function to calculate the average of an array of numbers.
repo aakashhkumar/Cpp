@@ -8,6 +8,6 @@ double calculateAverage(int arr[], int arrSize) {
  
     // Calculate the average
     double average = sum / arrSize;
-    return average;
+    return average; 
     
 }
