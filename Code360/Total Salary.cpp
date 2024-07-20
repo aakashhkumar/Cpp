@@ -8,7 +8,7 @@ DA    = 50% of basic
 Allow = 1700 if grade = ‘A’
 Allow = 1500 if grade = ‘B’
 Allow = 1300 if grade = ‘C' or any other character
-PF    = 11% of basic.
+PF    = 11% of basic. 
 Round off the total salary and then print the integral part only.
 
 
