@@ -10,7 +10,7 @@ Allow = 1500 if grade = ‘B’
 Allow = 1300 if grade = ‘C' or any other characters
 PF    = 11% of basic. 
 Round off the total salary and then print the integral part only.
-
+ 
 
 
 Note for C++ users :
