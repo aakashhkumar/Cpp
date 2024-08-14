@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     cout << 69 + 96;
-}  
+}   
 
 #include <iostream>: This line is including the contents of the iostream library. This library is necessary for input and output operations in C++. Think of it like giving your program the ability to speak and listen.
 
