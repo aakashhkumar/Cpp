@@ -5,7 +5,7 @@ The very first program he's tasked to write is as follows:
 Unfortunately, Chef makes a typo: his program outputs A × B instead of A + B. 
 Given the values of A and B, can you help Chef find the absolute difference between the correct answer and the value his program prints?
 
-
+ 
  
 Input Format 
 The only line of input will contain two space-separated integers, A and B.
