@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 int t;
 cin>>t;
-while(t--){
+while(t--){ 
     int X,P,Q;
     cin>>X>>P>>Q;
     cout<< (P-Q) * X<<endl;
