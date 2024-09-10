@@ -6,7 +6,7 @@ Convenience in Contests:
 Saves time during contests where speed is crucial.
 Reduces the effort of writing multiple include statements.
 Avoiding Explicit Header Inclusions:
-
+ 
 Eliminates the need to explicitly include individual headers for standard C++ libraries.
 You don't have to remember and include specific headers for each function.
 Disadvantages of <bits/stdc++.h>:
