@@ -4,6 +4,6 @@ string checkVotingEligibility(int age) {
     }
     else{
         return "Not Eligible";
-
+ 
     }
 }
