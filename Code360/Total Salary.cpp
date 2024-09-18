@@ -4,7 +4,7 @@ Write a program to calculate the total salary of a person. The user has to enter
     Total_salary = Basic + HRA + DA + Allow – PF  
 where : 
 HRA   = 20% of basic    
-DA    = 50% of basic 
+DA    = 50% of basic  
 Allow = 1700 if grade = ‘A’ 
 Allow = 1500 if grade = ‘B’    
 Allow = 1300 if grade = ‘C' or any other characters 
