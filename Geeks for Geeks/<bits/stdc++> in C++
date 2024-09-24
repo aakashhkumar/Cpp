@@ -3,7 +3,7 @@ The use of <bits/stdc++.h> in C++ programming contests is a common practice to s
 Advantages of <bits/stdc++.h>: 
 Convenience in Contests:
 
-Saves time during contests where speed is crucial.
+Saves time during contests where speed is crucial. 
 Reduces the effort of writing multiple include statements.
 Avoiding Explicit Header Inclusions:
  
