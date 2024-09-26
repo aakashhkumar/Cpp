@@ -1,4 +1,4 @@
-string checkPassOrFail(int marks) {
+ string checkPassOrFail(int marks) {
     if(marks >= 40){
         return "Pass";
     }
