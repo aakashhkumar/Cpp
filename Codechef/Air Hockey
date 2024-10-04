@@ -5,7 +5,7 @@ int main() {
     int t;
     cin>>t;
     while(t--){  
-        int A,B;
+        int A,B; 
         cin>>A>>B;
         cout<< (7- max(A,B))<<endl;
     }
