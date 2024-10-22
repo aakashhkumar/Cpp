@@ -6,7 +6,7 @@ Area of the rectangle
 Perimeter of the rectangle
 
 CODE:
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> 
 using namespace std; 
 
 int main() {
