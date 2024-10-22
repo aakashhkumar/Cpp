@@ -4,7 +4,7 @@ Let’s consider a rectangle of sides 11 and 13.
 Output the following on separate lines 
 Area of the rectangle
 Perimeter of the rectangle
-
+ 
 CODE:
 #include <bits/stdc++.h> 
 using namespace std; 
