@@ -2,7 +2,7 @@
     if(marks >= 40){
         return "Pass";
     }
-    else{
+    else{ 
         return "Fail";
     } 
 }
