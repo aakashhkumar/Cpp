@@ -3,7 +3,7 @@ int findSmallest(int num1, int num2) {
 }
 
 
-// OR //
+// OR // 
  
  if (num1 < num2) {
         return num1;
