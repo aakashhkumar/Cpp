@@ -4,7 +4,7 @@ Advantages of <bits/stdc++.h>:
 Convenience in Contests: 
 
 Saves time during contests where speed is crucial. 
-Reduces the effort of writing multiple include statements.  
+Reduces the effort of writing multiple include statements.   
 Avoiding Explicit Header Inclusions:
  
 Eliminates the need to explicitly include individual headers for standard C++ libraries.
