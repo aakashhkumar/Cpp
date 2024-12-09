@@ -1,4 +1,4 @@
-int findSmallest(int num1, int num2) {
+ int findSmallest(int num1, int num2) {
     return min(num1,num2);
 }
 
