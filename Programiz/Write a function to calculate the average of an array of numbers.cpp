@@ -3,7 +3,7 @@ double calculateAverage(int arr[], int arrSize) {
      
     for (int i = 0; i < arrSize; ++i) {
         sum += arr[i]; 
-    }
+    } 
   
     double average = sum / arrSize;
     return average; 
