@@ -5,7 +5,7 @@ double calculateAverage(int arr[], int arrSize) {
         sum += arr[i]; 
     } 
   
-    double average = sum / arrSize;
+    double average = sum / arrSize; 
     return average; 
     
 }
