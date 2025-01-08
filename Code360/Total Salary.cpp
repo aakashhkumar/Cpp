@@ -30,7 +30,7 @@ int main() {
     double basic;
     char grade;
     
-    cin >> basic >> grade;
+    cin >> basic >> grade; 
     
     double HRA = 0.2 * basic;
     double DA = 0.5 * basic;
