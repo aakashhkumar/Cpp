@@ -5,7 +5,7 @@ Output the following on separate lines
 Area of the rectangle
 Perimeter of the rectangle
  
-CODE: 
+CODE:  
 #include <bits/stdc++.h> 
 using namespace std; 
 
