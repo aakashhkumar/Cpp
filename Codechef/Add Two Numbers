@@ -4,7 +4,7 @@ Your task is very simple: given two integers A and B, write a program to add the
 using namespace std; 
   
 int main() {  
-    int t;    
+    int t;     
     cin>>t; 
     while(t--){
         int a,b;  
