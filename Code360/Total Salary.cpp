@@ -1,7 +1,7 @@
 /* Problem statement
 Write a program to calculate the total salary of a person. The user has to enter the basic salary (an integer) and the grade (an uppercase character), depending upon which the total salary is calculated as:
 
-    Total_salary = Basic + HRA + DA + Allow –  PF    
+    Total_salary = Basic + HRA + DA + Allow –  PF     
 where :  
 HRA   = 20% of basic      
 DA    = 50% of basic    
