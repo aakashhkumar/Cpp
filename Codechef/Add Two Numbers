@@ -2,7 +2,7 @@ Your task is very simple: given two integers A and B, write a program to add the
 
 #include <iostream>
 using namespace std; 
-   
+    
 int main() {   
     int t;      
     cin>>t; 
