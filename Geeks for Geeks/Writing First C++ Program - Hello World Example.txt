@@ -2,7 +2,7 @@
     
        
 Writing your program in a text editor and saving it with correct extension(.CPP, .C, .CP)       
-Compiling your program using a compiler or online IDE  
+Compiling your program using a compiler or online IDE   
 Understanding the basic terminologies.              
     
      
