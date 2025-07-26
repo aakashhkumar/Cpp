@@ -8,7 +8,7 @@ int main() {
     cin >> t;             
     while (t--)    
     {    
-        int N, A; 
+        int N, A;  
         cin >> N >> A;
         int chef_chocolates = A;
         int chefina_chocolates = N - A;
