@@ -9,7 +9,7 @@ int main() {
     while (t--)    
     {    
         int N, A;  
-        cin >> N >> A;
+        cin >> N >> A; 
         int chef_chocolates = A;
         int chefina_chocolates = N - A;
         int diff = abs(chefina_chocolates - chef_chocolates);
