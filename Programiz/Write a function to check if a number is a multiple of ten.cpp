@@ -1,4 +1,4 @@
-  string isMultipleOfTen(int num) {
+   string isMultipleOfTen(int num) {
     if (num % 10 ==0){
         return "Yes";
     }  
